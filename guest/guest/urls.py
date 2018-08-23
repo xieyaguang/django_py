@@ -23,6 +23,7 @@ urlpatterns = [
     path('event_manage/',views.event_manage),
     path('accounts/login/',views.index),
     path('',views.index),
-    
+    path('search_name/',views.search_name),
+    path('guest_manage/',views.guest_manage)
     
 ]
